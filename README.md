@@ -1,0 +1,2 @@
+# funda
+Nuxt and pinia
