@@ -13,8 +13,14 @@ export default defineNuxtConfig({
   ],
   imports: {
     dirs: ['stores']
-  }
+  },
   // alias: {
   //   pinia: 'node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs'
   // }
+  routeRules: {
+    '/static': { static: true },
+    'swr': { swr: true },
+    // 'ssr': {  }
+    // "/spa": { ssr: false }
+  }
 })

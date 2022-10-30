@@ -1,9 +1,5 @@
 <!-- <script lang="ts" setup> -->
 <script setup>
-// definePegaMeta({
-//   title: 'MovieSearch',
-//   // pageTransitions: false,
-// })
 const query = ref('batman')
 const movies = ref([])
 const URL = 'https://www.omdbapi.com/?'
